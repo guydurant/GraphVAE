@@ -15,7 +15,7 @@ from torch.optim.lr_scheduler import MultiStepLR
 
 import data
 from model import GraphVAE
-from data import GraphAdjSampler
+from sampler import GraphAdjSampler
 
 CUDA = 2
 
